@@ -24,6 +24,7 @@ Console.UserLeaveRegex=^User (?<username>.+?) \((?<userid>-?d+)\) disconnected\.
 Meta.Author=
 Meta.ConfigManifest=minecraft-prominenceconfig.json
 Meta.ConfigRoot=minecraft-prominence.kvp
+Meta.AppConfigId=b2a53918-2c48-4780-9f08-c64e734bb78d
 Meta.Description=
 Meta.DisplayImageSource=url:
 Meta.DisplayName=Minecraft Prominence
