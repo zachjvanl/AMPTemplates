@@ -2,12 +2,12 @@ App.AdminMethod=STDIO
 App.ApplicationPort1=25565
 App.ApplicationReadyMode=Immediate
 App.BaseDirectory=./minecraft-prominence/
-App.CommandLineArgs=
+App.CommandLineArgs=-Dlog4j2.formatMsgNoLookups=true -Xmx8G -Xms1G -jar fabric-server-launcher.jar nogui
 App.CommandLineParameterDelimiter= 
-App.CommandLineParameterFormat=-{0} "{1}"
+App.CommandLineParameterFormat=-{0} -{1} -{2} -{3} {4} {5}
 App.DisplayName=Minecraft Prominence
 App.ExecutableLinux=
-App.ExecutableWin=start.exe
+App.ExecutableWin=java
 App.ExitMethod=String
 App.ExitString=stop
 App.HasReadableConsole=true
